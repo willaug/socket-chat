@@ -2,7 +2,7 @@
     <img src="./public/logo-title.svg" height="80">
 <p>
 <p align="center">Converse em tempo real com outras pessoas</p>
-
+<br><br><br>
 <p align="center">
     <img src="./.github/slide-1-socket-chat.jpg">
     <img src="./.github/slide-2-socket-chat.jpg">
@@ -19,7 +19,7 @@ Em busca de um melhor proveito de meus estudos, decidi criar um aplicativo web q
 - Enviar mensagens;
 - Enviar emoticons/emojis;
 - Obter a contagem de usuários;
-- Ler o log de cada entrada/saída de usuários.
+- Ler o log de cada entrada/saída de usuário.
 
 ## Instalação
 
@@ -29,7 +29,7 @@ Para o projeto ser executado, é necessário possuir NodeJS instalado em sua má
 
 ### Início
 
-É necessário apenas instalar as depêndencias de NodeJS, e pra isso basta apenas:
+É necessário apenas instalar as depêndencias de NodeJS, e pra isso:
 
 ```
 npm install
@@ -55,7 +55,7 @@ Apenas isso é necessário para a comunicação entre Socket.io e NodeJS.
 
 - **NodeJS** - Servidor;
 - **ExpressJS** -  Framework de NodeJS;
-- **EJS** - Kayout em NodeJS para marcação;
+- **EJS** - Layout em NodeJS para marcação;
 - **Socket io** - Comunicação em tempo real com o servidor;
 - **Javascript** - Realização de funções ao lado do cliente;
 - **CSS** - Estilização da aplicação.
