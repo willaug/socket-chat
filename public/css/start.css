@@ -1,0 +1,117 @@
+@import "variables.css";
+
+
+h1{
+    position: relative;
+    text-align: left;
+    font-size: 35px;
+    font-family: var(--openSans);
+    font-weight: 300;
+    margin-bottom: 40px;
+    color: var(--gray-color);
+}
+
+.btn{
+    position: relative;
+    display: block;
+    padding: 12px 40px;
+    border-radius: 45px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all .3s ease;
+}
+
+.btn-blue:hover{
+    background-color: var(--secondary-color);
+    box-shadow: 0px 8px 15px rgba(41, 182 ,246, 0.3);
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+.author{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: left;
+    position: relative;
+    color: var(--gray-color);
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    align-items: center;
+}
+
+.author a{
+    color: var(--secondary-color);
+}
+
+.author strong{
+    color: var(--secondary-color);
+    font-size: 14px;
+}
+
+.input-name{
+    width: 100%;
+    max-width: 450px;
+    display: none;
+    opacity: 0;
+    margin-bottom: 18px;
+    font-size: 19px;
+    padding: 6px 0;
+    color: var(--title-color);
+    border-bottom: 2px solid var(--gray-color);
+    transition: all .4s ease;
+}
+
+.input-name:focus{
+    border-color: var(--primary-color);
+}
+
+.error{
+    color: #F44336;
+    font-size: 13px;
+    display: none;
+    transition: all .4s ease;
+}
+
+@media (min-width: 750px){
+    
+    h1{
+        font-size: 55px;
+        margin-bottom: 60px;
+    }
+
+    .btn{
+        padding: 15px 50px;
+        border-radius: 65px;
+        font-size: 18px;
+    }
+
+    .btn-blue:hover{
+        transform: translateY(-6px);
+    }
+
+    .author{
+        margin-top: 300px;
+        font-size: 16px;
+    }
+
+    .author strong{
+        font-size: 16px;
+    }
+
+    .input-name{
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .error{
+        font-size: 16px;
+    }
+
+}

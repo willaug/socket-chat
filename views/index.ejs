@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="language" content="pt-BR">
+    <meta name="description" content="Converse com diversas pessoas através de mensagens em tempo real">
+    <meta name="robots" content="index">
+    <meta name="author" content="William Augusto">
+    <meta name="keywords" content="chat bate-papo papo conversa realtime real mensagem mensagens">
+    <title>SocketChat - Bate papo em tempo real</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/5b27a99c39.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/start.css">
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="shortcut icon" href="/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="img-header">
+                <img src="/logo.svg" alt="SocketChat">
+                <p>SocketChat</p>
+            </div>
+            <div class="count" style="display: none;"></div>
+        </div>
+    </header>
+    <main>
+        <section id="startSection" class="container mt">
+            <h1 id="title">Conversar em tempo real com outras pessoas</h1>
+            <input type="text" name="name" id="nameInput" placeholder="Digite o seu nome" class="input-name">
+            <span class="error"></span>
+            <button class="btn btn-blue middle-center" id="btn_start">Iniciar</button>
+            <div class="author">
+                <p>Feito com <strong><i class="fas fa-heart"></i></strong> por <a href="https://github.com/willaug" target="_blank">William Augusto</a></p>
+            </div>
+        </section>
+        <section id="chatSection">
+            <div class="container mt">
+                <div class="messages">
+                </div>
+            </div>
+            <div class="textbox">
+                <div class="container">
+                    <div class="emoticons" id="list_emoticons">
+                        <p>😀</p><p>😁</p><p>😂</p><p>🤣</p><p>😃</p><p>😄</p><p>😅</p><p>😉</p><p>😊</p>
+                        <p>😋</p><p>😎</p><p>😍</p><p>😘</p><p>😗</p><p>😙</p><p>😚</p><p>🙂</p><p>🤗</p>
+                        <p>🤩</p><p>🤔</p><p>🤨</p><p>😐</p><p>😑</p><p>😶</p><p>🙄</p><p>😏</p><p>😣</p>
+                        <p>😥</p><p>😮</p><p>🤐</p><p>😜</p><p>🤤</p><p>😓</p><p>😡</p><p>😈</p><p>🤡</p>
+                        <p>👍</p><p>🤝</p><p>🙌</p><p>👋</p><p>🤚</p><p>🤬</p><p>🤢</p><p>🤑</p><p>🧐</p>
+                        <p>🤫</p><p>😱</p><p>💀</p><p>💩</p>
+                    </div>
+                    <div class="padding-textbox">
+                        <button type="button" class="icon-button" id="btn_emoticons"><i class="far fa-laugh"></i></button>
+                        <textarea placeholder="Digite uma mensagem" id="textInput"></textarea>
+                        <button type="button" class="icon-button" id="btn_send"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.js"></script>
+    <script> const socket = io('<%= url %>') </script>
+    <script src="/app.js"></script>
+</body>
+</html>
