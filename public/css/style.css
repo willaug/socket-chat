@@ -36,20 +36,8 @@ header{
 }
 
 .img-header{
-    align-items: center;
-    display: flex;
-    height: 100%;
-    line-height: 100%;
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--title-color);
-    letter-spacing: 0.2px;
-}
-
-.img-header img{
-    width: 37px;
-    height: auto;
-    margin-right: 16px;
+    height: 37px;
+    width: auto;
 }
 
 .count{
@@ -79,12 +67,7 @@ header{
     }
 
     .img-header{
-        font-size: 28px;
-    }
-
-    .img-header img{
-        width: 40px;
-        margin-right: 18px;
+        height: 45px;
     }
 
     .count{
