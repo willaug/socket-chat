@@ -133,7 +133,7 @@ function sendMessage(){
     let body = textInput.value
 
     if(body != '' && body[0] != ' '){
-        socket.emit('message', { body, username })
+        socket.emit('message', { body })
     }
 
     textInput.value = ''

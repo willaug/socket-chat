@@ -37,7 +37,7 @@ io.on("connection", socket => {
 
     //send message
     socket.on('message', data => {
-        io.emit('showMessage', {body: data.body, username: data.username})
+        io.emit('showMessage', {body: data.body, username: socket.username})
     })
 
     //disconnect
