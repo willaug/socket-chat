@@ -1,9 +1,9 @@
-<p style="text-align: center;">
+<p align="center">
     <img src="./public/logo-title.svg" height="80">
 <p>
-<p style="text-align: center;">Converse em tempo real com outras pessoas</p>
+<p align="center">Converse em tempo real com outras pessoas</p>
 
-<p style="text-align: center">
+<p align="center">
     <img src="./.github/slide-1-socket-chat.jpg">
     <img src="./.github/slide-2-socket-chat.jpg">
 <p>
