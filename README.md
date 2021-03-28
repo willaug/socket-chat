@@ -29,7 +29,13 @@ Para o projeto ser executado, é necessário possuir NodeJS instalado em sua má
 
 ### Início
 
-É necessário apenas instalar as depêndencias de NodeJS, e pra isso:
+Clonagem do repositório:
+
+```
+git clone https://github.com/willaug/socket-chat.git
+```
+
+Instalação de depêndencias:
 
 ```
 npm install
@@ -53,15 +59,16 @@ Apenas isso é necessário para a comunicação entre Socket.io e NodeJS.
 
 ### Construído em
 
-- **NodeJS** - Servidor;
-- **ExpressJS** -  Framework de NodeJS;
-- **EJS** - Layout em NodeJS para marcação;
-- **Socket io** - Comunicação em tempo real com o servidor;
-- **Javascript** - Realização de funções ao lado do cliente;
-- **CSS** - Estilização da aplicação.
+- [NodeJS](https://nodejs.org/en/)
+- [ExpressJS](https://expressjs.com/pt-br/)
+- [EJS](https://ejs.co/)
+- [Socket.io](https://socket.io/)
 
-### Despedida
+## Autor
+
+Feito por William Augusto
+📧 william.santos315@outlook.com
+
+## Despedida
 
 Obrigado por visitar meu projeto, você é livre para dar um feedback ou usa-lo como referência para os seus projetos. Obrigado, até mais! 😊
-
-📧 william.santos315@outlook.com
