@@ -2,7 +2,16 @@
     <img src="./public/logo-title.svg" height="80">
 <p>
 <p align="center">Converse em tempo real com outras pessoas</p>
-<br><br><br>
+<br>
+
+![Badge](https://img.shields.io/badge/Node-14.16.0-green)
+![Badge](https://img.shields.io/badge/NPM-6.14.11-brightgreen)
+
+![Badge](https://img.shields.io/badge/Socket.io-4.0.0-blue)
+![Badge](https://img.shields.io/badge/ExpressJS-4.17.1-informational)
+![Badge](https://img.shields.io/badge/EJS-3.1.6-yellow)
+
+<br><br>
 <p align="center">
     <img src="./.github/slide-1-socket-chat.jpg">
     <img src="./.github/slide-2-socket-chat.jpg">
